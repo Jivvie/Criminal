@@ -25,6 +25,7 @@ private:
     
 public:
     MainChar();
+    MainChar(string);
     string name;
 };
 

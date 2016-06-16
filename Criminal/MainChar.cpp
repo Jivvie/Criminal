@@ -7,3 +7,8 @@
 //
 
 #include "MainChar.hpp"
+
+MainChar :: MainChar(string user_name)
+{
+    user_name = name;
+}

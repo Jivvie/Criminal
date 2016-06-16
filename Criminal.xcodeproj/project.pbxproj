@@ -10,6 +10,7 @@
 		A4A09E091D0C90D800888111 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A4A09E081D0C90D800888111 /* main.cpp */; };
 		A4A09E111D0C915000888111 /* Victim.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A4A09E0F1D0C915000888111 /* Victim.cpp */; };
 		A4A09E141D0CA55F00888111 /* MainChar.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A4A09E121D0CA55F00888111 /* MainChar.cpp */; };
+		A4A09E171D0D356800888111 /* MapLevel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A4A09E151D0D356800888111 /* MapLevel.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,8 @@
 		A4A09E101D0C915000888111 /* Victim.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Victim.hpp; sourceTree = "<group>"; };
 		A4A09E121D0CA55F00888111 /* MainChar.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MainChar.cpp; sourceTree = "<group>"; };
 		A4A09E131D0CA55F00888111 /* MainChar.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = MainChar.hpp; sourceTree = "<group>"; };
+		A4A09E151D0D356800888111 /* MapLevel.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MapLevel.cpp; sourceTree = "<group>"; };
+		A4A09E161D0D356800888111 /* MapLevel.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = MapLevel.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +71,8 @@
 				A4A09E101D0C915000888111 /* Victim.hpp */,
 				A4A09E121D0CA55F00888111 /* MainChar.cpp */,
 				A4A09E131D0CA55F00888111 /* MainChar.hpp */,
+				A4A09E151D0D356800888111 /* MapLevel.cpp */,
+				A4A09E161D0D356800888111 /* MapLevel.hpp */,
 			);
 			path = Criminal;
 			sourceTree = "<group>";
@@ -131,6 +136,7 @@
 				A4A09E091D0C90D800888111 /* main.cpp in Sources */,
 				A4A09E141D0CA55F00888111 /* MainChar.cpp in Sources */,
 				A4A09E111D0C915000888111 /* Victim.cpp in Sources */,
+				A4A09E171D0D356800888111 /* MapLevel.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,6 +257,7 @@
 				A4A09E0E1D0C90D800888111 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
