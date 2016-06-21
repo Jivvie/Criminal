@@ -20,12 +20,13 @@ private:
     int sanityLevel;
     int totalKills;
     int killStreak;
-    const int MAX_SANITY = 25;
+    const int MAX_SANITY = 50;
     const int MIN_SANITY = 0;
     
 public:
     MainChar();
     MainChar(string);
+    void setName(string);
     string name;
 };
 

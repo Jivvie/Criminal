@@ -7,10 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A4455BFA1D15FD2700DAC41A /* Location.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A4455BF81D15FD2700DAC41A /* Location.cpp */; };
+		A4455BFD1D1606CC00DAC41A /* BarLevel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A4455BFB1D1606CC00DAC41A /* BarLevel.cpp */; };
 		A4A09E091D0C90D800888111 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A4A09E081D0C90D800888111 /* main.cpp */; };
 		A4A09E111D0C915000888111 /* Victim.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A4A09E0F1D0C915000888111 /* Victim.cpp */; };
 		A4A09E141D0CA55F00888111 /* MainChar.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A4A09E121D0CA55F00888111 /* MainChar.cpp */; };
-		A4A09E171D0D356800888111 /* MapLevel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A4A09E151D0D356800888111 /* MapLevel.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,14 +27,16 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		A4455BF81D15FD2700DAC41A /* Location.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Location.cpp; sourceTree = "<group>"; };
+		A4455BF91D15FD2700DAC41A /* Location.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Location.hpp; sourceTree = "<group>"; };
+		A4455BFB1D1606CC00DAC41A /* BarLevel.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BarLevel.cpp; sourceTree = "<group>"; };
+		A4455BFC1D1606CC00DAC41A /* BarLevel.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = BarLevel.hpp; sourceTree = "<group>"; };
 		A4A09E051D0C90D800888111 /* Criminal */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Criminal; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4A09E081D0C90D800888111 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		A4A09E0F1D0C915000888111 /* Victim.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Victim.cpp; sourceTree = "<group>"; };
 		A4A09E101D0C915000888111 /* Victim.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Victim.hpp; sourceTree = "<group>"; };
 		A4A09E121D0CA55F00888111 /* MainChar.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MainChar.cpp; sourceTree = "<group>"; };
 		A4A09E131D0CA55F00888111 /* MainChar.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = MainChar.hpp; sourceTree = "<group>"; };
-		A4A09E151D0D356800888111 /* MapLevel.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MapLevel.cpp; sourceTree = "<group>"; };
-		A4A09E161D0D356800888111 /* MapLevel.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = MapLevel.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,12 +70,14 @@
 			isa = PBXGroup;
 			children = (
 				A4A09E081D0C90D800888111 /* main.cpp */,
+				A4455BFB1D1606CC00DAC41A /* BarLevel.cpp */,
+				A4455BFC1D1606CC00DAC41A /* BarLevel.hpp */,
+				A4455BF91D15FD2700DAC41A /* Location.hpp */,
+				A4455BF81D15FD2700DAC41A /* Location.cpp */,
 				A4A09E0F1D0C915000888111 /* Victim.cpp */,
 				A4A09E101D0C915000888111 /* Victim.hpp */,
 				A4A09E121D0CA55F00888111 /* MainChar.cpp */,
 				A4A09E131D0CA55F00888111 /* MainChar.hpp */,
-				A4A09E151D0D356800888111 /* MapLevel.cpp */,
-				A4A09E161D0D356800888111 /* MapLevel.hpp */,
 			);
 			path = Criminal;
 			sourceTree = "<group>";
@@ -135,8 +140,9 @@
 			files = (
 				A4A09E091D0C90D800888111 /* main.cpp in Sources */,
 				A4A09E141D0CA55F00888111 /* MainChar.cpp in Sources */,
+				A4455BFD1D1606CC00DAC41A /* BarLevel.cpp in Sources */,
+				A4455BFA1D15FD2700DAC41A /* Location.cpp in Sources */,
 				A4A09E111D0C915000888111 /* Victim.cpp in Sources */,
-				A4A09E171D0D356800888111 /* MapLevel.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
