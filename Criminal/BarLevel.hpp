@@ -20,19 +20,6 @@ struct DrunkMale
     const string name;
 };
 
-struct MarriedCouple
-{
-    /** Information on Female **/
-    const string f_name;
-    const int f_age;
-    const int f_height;
-    /** Information on Male **/
-    const string m_name;
-    const int m_age;
-    const int m_height;
-
-
-};
 
 struct DrunkFemale
 {
@@ -54,9 +41,6 @@ struct BlackBar
 class BarLevel
 {
 public:
-    /** Allows user to do things with the MarriedCouple struct. Users can:
-      -Socialize with the couple -Flirt with the couple -Dance with the couple **/
-    void interactWithCouple();
 private:
     Victim victim;
     const string TITLE = "BAR LEVEL";
