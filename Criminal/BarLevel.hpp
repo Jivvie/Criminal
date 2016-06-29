@@ -11,6 +11,7 @@
 
 #include <stdio.h>
 #include "Victim.hpp"
+#include "MarriedCouple.hpp"
 #include <iostream>
 
 using namespace std;
@@ -41,9 +42,13 @@ struct BlackBar
 class BarLevel
 {
 public:
+    BarLevel();
+    void startBarLevel();
+    void interactWithCouple();
 private:
     Victim victim;
-    const string TITLE = "BAR LEVEL";
+    MarriedCouple marriedCouple;
+    const string TITLE = "***BAR LEVEL***";
     
 };
 

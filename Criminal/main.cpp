@@ -9,10 +9,11 @@
 #include <iostream>
 #include "MainChar.hpp"
 #include "Victim.hpp"
+#include "BarLevel.hpp"
 
 using namespace std;
 
 int main(int argc, const char * argv[]) {
-    // insert code here...
+    BarLevel bar;
     return 0;
 }

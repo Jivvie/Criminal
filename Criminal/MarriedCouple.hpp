@@ -16,17 +16,17 @@ using namespace std;
 class MarriedCouple
 {
 public:
-    /** Information on Female **/
-    const string f_name;
-    const int f_age;
-    const int f_height;
-    /** Information on Male **/
-    const string m_name;
-    const int m_age;
-    const int m_height;
+    const string f_name = "Mia";
+    bool knowsMaleSecret;
+    bool knowsFemaleSecret;
     /** Allows user to do things with the MarriedCouple struct. Users can:
      -Socialize with the couple -Flirt with the couple -Dance with the couple **/
     void interactWithCouple();
+    void setFemaleSecret();
+    void aboutMale();
+    void aboutFemale();
+    //default constructor
+    MarriedCouple();
 private:
     
     
