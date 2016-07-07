@@ -44,13 +44,19 @@ void BarLevel::interactWithCouple()
     bool doneWithCouple = false;
     while(!doneWithCouple)
     {
-        cout << "1. About Female " << endl << endl;
+        cout << "1. About Female 2. About Male " << endl << endl;
         cout << "Make your selection.... Then Enter." << endl;
         cin >> selection;
         switch (selection)
         {
             case 1:
                 marriedCouple.aboutFemale();
+                break;
+            case 2:
+                break;
+            case 3:
+                break;
+            case 4:
                 break;
                 
             default:

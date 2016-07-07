@@ -13,11 +13,6 @@ MarriedCouple::MarriedCouple()
     bool knowsMaleSecret = false;
     bool knowsFemaleSecret = false;
     //female height in inches
-    /** Information on Male **/
-    const string m_name = "Kenneth";
-    const int m_age = 29;
-    const int m_height = 70; //in inches
-
 };
 
 void MarriedCouple::setFemaleSecret()
@@ -32,4 +27,14 @@ void MarriedCouple::aboutFemale()
     " In high school she was called 'nappy headed' and was ridiculed for her bad speech. Her IQ is normal. Mia has no kids and dislikes " <<
     "the bunch very much. She is a terrible kisser but believes this is false. There is nothing extraordinary or good about little Mia. " <<
     " She enjoys flirting with any mind that fills the holes in her marriage." << endl;
+    /** If the user knows the secret,  this block of code should display **/
+    if (knowsFemaleSecret)
+    {
+        
+    }
+    /** If the secret is not know, this block of code will run/display **/
+    else
+    {
+        
+    }
 }
